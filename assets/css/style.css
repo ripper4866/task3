@@ -1,0 +1,200 @@
+/* Eric Meyer's CSS Reset */
+/* https://colorscheme.ru/#0C31GmR--Hlho */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+	background: #FAF9D4;
+}
+h1 {
+	font: 30px/60px Arial, sans-serif;
+}
+h2 {
+	font: 20px/40px Arial, sans-serif;
+	margin: 30px;
+}
+h5 {
+	font: 14px/18px Arial, sans-serif;
+	font-weight: bolder;
+}
+h6 {
+	font: 14px/18px Arial, sans-serif;
+	font-style: italic;
+}
+#error {
+	color: #CC0000;
+}
+input, textarea, div {
+	margin: 10px;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    text-align: left;
+    padding-left: 200px;
+	min-width: 800px;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 60px;
+	background: #B0CFCA;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	min-width: 800px;
+	max-width: 1400px;
+	margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	min-height: 100%;
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	background: #FAF9D4;
+}
+.content {
+	padding: 0 320px 0 220px;
+}
+
+.userPhoto {
+	width: 300px;
+	min-height: 300px;
+	position: relative;
+	background: #999999;
+}
+
+.userInfo {
+	padding: 0 0px 0 0px;
+}
+
+.userComments {
+}
+
+.banner {
+	font: 25px/50px Arial, sans-serif;
+	background: #B0CFCA;
+	padding: 100px 200px 100px 200px;
+}
+.comment {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: dashed 3px #0D5583;
+	background: #5D8AA7;
+	width: 100%;
+	padding: 10px;
+	position: relative;
+}
+.quotefield {
+	background: #0D5583;
+	border: dashed 3px #5D8AA7;
+	padding: 20px; /* Поля вокруг текста */
+	margin: 20px; /* Поля вокруг текста */
+}
+.commentform {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: dashed 3px #B0CFCA;
+	background: #FAF9D4;
+	width: 100%;
+	padding: 10px;
+	position: relative;
+}
+#title, #theme, #text {
+	width: 90%;
+}
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	overflow: auto;
+	float: left;
+	width: 200px;
+	margin-left: -100%;
+	position: relative;
+	background: #7B9B96;
+}
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: right;
+	width: 300px;
+	margin-left: -300px;
+	position: relative;
+	background: #7B9B96;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    font: 12px/60px Arial, sans-serif;
+    text-align: left;
+    padding-left: 200px;
+	min-width: 800px;
+	max-width: 1200px;
+	margin: -60px auto 0;
+	height: 60px;
+	background: #B0CFCA;
+	position: relative;
+}
